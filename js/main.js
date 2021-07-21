@@ -34,7 +34,7 @@ console.log(random);
  console.log(n);
 
  for (i = 0; i < n.length; i++) {
-     if (n[i] % 2 !=0) {
+     if  (i % 2 !=0) {
          som += n[i];
      }
  }
